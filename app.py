@@ -43,7 +43,7 @@ st.bar_chart(filtered_df[["base_price", price_column]].sample(sample_size).reset
 
 # Show peak info if Uber-style selected
 if pricing_option == "Uber/Ola Peak Hour Pricing":
-    st.markdown("Note: A 1.4x multiplier is applied during peak hours (7–10 AM, 5–8 PM).")
+    st.markdown("Note: A 1.4x multiplier is applied during peak hours (7–11 AM, 5–8 PM).")
 
 # Raw Data
 if st.checkbox("Show Raw Data"):
